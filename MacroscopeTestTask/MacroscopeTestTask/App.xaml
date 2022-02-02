@@ -1,0 +1,17 @@
+﻿<Application x:Class="MacroscopeTestTask.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MacroscopeTestTask" xmlns:converters="clr-namespace:MacroscopeTestTask.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ResourceDictionary_Button.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <converters:DownloadStatusToColorConverter x:Key="DownloadStatusToColorConverter"/>
+            <converters:DownloadStatusToIsEnabledConverter x:Key="DownloadStatusToIsEnabledConverter"/>
+            <converters:BoolMultivalueConverter x:Key="BoolMultivalueConverter"/>
+            <converters:DownloadStatusToIsEnabledConverter_Cancel x:Key="DownloadStatusToIsEnabledConverter_Cancel"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

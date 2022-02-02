@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wmTOK5BelwUHbhxxY+8myzae75o7Mye0yY+xNmwPNIp7E2YIKkwnytvBkclAe1mt7ZvzCOOmKu2XHg2FSS99+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\N\\Desktop\\Машинопись\\TT2\\MacroscopeTestTask\\MacroscopeTestTask\\MacroscopeTestTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\N\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\N\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
